@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hoja de Vida</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <svg>
+        <image xlink:href="img/logo.svg" width="250px" height="100px"></image>
+        </svg>        
+        <h1>Hoja de Vida</h1>
+        <h2>Martin Garcia</h2>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+        <h3>Educación</h3>
+        <table border="1">
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+            <tr>
+                <td>2008</td>
+                <td>Universidad César Vallejo</td>
+                <td>Piura</td>
+                <td>Sí</td>
+            </tr>
+            <tr>
+                <td>2015</td>
+                <td>Odoo ERP</td>
+                <td>Lima</td>
+                <td>Sí</td>
+            </tr>
+        </table>
+        <h3>Agregar Educación</h3>
+        <form>
+            <div>
+                <label for="cmb_anio">Año</label>
+                <select name="cmb_anio" id="cmb_anio">
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2015</option>
+                    <option>2014</option>
+                </select>
+            </div>
+            <div>
+                <label for="txt_institucion">Institución</label>
+                <input type="text" name="txt_institucion" id="txt_institucion" required />
+            </div>
+            <div>
+                <label for="txt_lugar">Lugar</label>
+                <div>
+                    <textarea name="txt_lugar" id="txt_lugar" rows="3" cols="30"></textarea>
+                </div>
+            </div>
+            <div>
+                <label for="radio1">¿Culminó?</label>
+                <input type="radio" name="radio1" id="radio1" checked />
+                <input type="radio" name="radio1" id="radio2" />
+            </div>
+            <div>
+                <input type="submit" value="Enviar" />
+            </div>
+        </form>
+        <footer>
+            <p>@ Derechos Reservados</p>
+            <ul>
+                <li><b>Email:</b> mgarciap85@gmail.com</li>
+                <li><b>Teléfono:</b> 953554556</li>
+                <li><b>Dirección:</b> Ca. Manuel vildoso 940 dpto. 11</li>
+            </ul>    
+        </footer>
+    </body>
+</html>
